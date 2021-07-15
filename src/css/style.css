@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+footer {
+  height: 10%;
+  width: 100%;
+}
+
+.footer-container {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container .planet-img {
+  margin-right: 2%;
+}
+.footer-container .footer-text {
+  margin-left: 2%;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background--one {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background--one .block-section--one {
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one img {
+  margin-top: 40px;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.background--two {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-content: space-between;
+}
+.background--two .block-section--two {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7%;
+}
+.background--two .block-section--two img {
+  height: auto;
+  max-width: 450px;
+}
+.background--two .block-section--two p {
+  font-size: 23px;
+  margin-top: 50px;
+  text-align: right;
+}
+.background--two .block-section--two .text-block--two {
+  max-width: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
